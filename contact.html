@@ -162,12 +162,18 @@
                     <div class="col-md-5">
                         <div class="pa-contact-form">
                             <form class="contact-form" class="form w-100" method="post" action="https://formsubmit.co/info@johnteelivercare.com" data-toggle="validator">
-                                <input type="text" placeholder="Enater your name" name="full_name" id="full_name" class="require" />
-                                <input type="text" placeholder="Enter your email" name="email" id="email" class="require" data-valid="email" data-error="Email should be valid." />
-                                <input type="number" placeholder="Enter your number"  id="number" class="require" />
-                                <textarea placeholder="Message here" name="message" id="message" class="require"></textarea>
-                                <input type="submit" value="send message">
-                                <div class="response"></div>
+
+                                <input name="username" id="username" type="text" required class="form-control" placeholder="Enter Your Name" />
+
+                                <input name="email" id="email" type="email" class="form-control" required placeholder="Enter Your Email" />
+
+                                <input name="number" id=number type="number" class="form-control" required placeholder="Enter Phone Number" />
+
+                                <input type="text" id="text" name="message" rows="3" class="form-control" required placeholder="Message"/>
+
+                                <input type="submit" value="Send Message">
+                                
+                                <!-- <div class="response"></div> -->
                             </form>
 
 
@@ -195,7 +201,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="pa-contact-box">
-                            <h4>Contant no.</h4>
+                            <h4>Contact number</h4>
                             <a href="tel:+919744341114">+91 9744 341 114</a> <br>
                             <a href="tel:+919847341117">+91 9847 341 117</a>
 

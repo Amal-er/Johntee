@@ -29,7 +29,7 @@ Author: Kamleshyadav
 --------------------------------------------------------------------*/
 
 
-  /* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@100;200;400;600;700&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@100;200;400;600;700&display=swap');
 
 
 :root {
@@ -3386,4 +3386,24 @@ body .colors .active p {
 }
 .amazon{
      color: rgb(133, 133, 244);
+}
+.customer{
+    margin-top: 20px;
+    padding-top: 22px;
+}
+.customer2{
+    margin-top: 35px;
+    padding-top: 35px;
+}
+.customer3{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+/* .livercare{
+    margin-top: 50px;
+    padding-top: 30px;
+} */
+.liverhead{
+    margin-top: 30px;
+    padding-top: 30px;
 }
