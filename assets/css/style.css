@@ -1552,7 +1552,7 @@ label.pa-bill-title,p.pa-bill-title {
 	border-radius: 50%;
 	background: var(--pureayurveda-primary);
 	-webkit-animation: ball-pulse-sync 1s 0s infinite ease-in-out;
-	animation: ball-pulse-sync 1s 0s infinite ease-in-out;
+	animation: ball-pulse-sync 0.5s 0s infinite ease-in-out;
 }
 .pa-ellipsis span:nth-child(1) {
 	-webkit-animation:ball-pulse-sync 1s -.14s infinite ease-in-out;

@@ -26,7 +26,7 @@
     loader: function () {
       jQuery(window).on("load", function () {
         jQuery(".pa-ellipsis").fadeOut(),
-          jQuery(".pa-preloader").delay(20).fadeOut("slow");
+          jQuery(".pa-preloader").delay(100).fadeOut("slow");
       });
     },
     // product sider
