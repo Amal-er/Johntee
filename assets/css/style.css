@@ -604,13 +604,14 @@ p.pa-product-rating {
 .pas-testi-content {
     width: calc(100% - 300px);
     padding-left: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .pas-testi-content p {
     display: -webkit-box;	
-	-webkit-line-clamp: 3;
+	-webkit-line-clamp: 4;
 	-webkit-box-orient: vertical;	
-	overflow: hidden;
+	/* overflow: hidden; */
+    
 }
 .pas-testi-content h2 {
     font-size: 25px;
@@ -1254,7 +1255,7 @@ p.pa-product-rating {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
     padding: 30px;
     border-radius: 10px;
-    transform: translate(-130px, 36px);
+    /* transform: translate(-130px, 36px); */
     z-index: 1;
     position: relative;
     background: #fff;
@@ -3360,25 +3361,11 @@ body .colors .active p {
     align-items: center;
     /* background-color: red; */
 }
-.lastimg{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 
-}
 .lastimg.h1{
     text:white;
 }
-.designed{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-.iconimg{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
+
 .seclob{
     font-size: small;
 }
@@ -3407,4 +3394,24 @@ body .colors .active p {
 .liverhead{
     margin-top: 30px;
     padding-top: 30px;
+}
+
+.paracontent{
+  padding-bottom: 20px;
+}
+.round-img{
+    color: green;
+    background: green;
+}
+.steps{
+    font-size: medium;
+  padding-bottom: 10px;
+  color: #048591;
+}
+.pa-heading .green{
+    color: #2db91c;
+
+}
+.pa-heading .ingredients{
+    color:#048591;
 }
