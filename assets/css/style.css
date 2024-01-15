@@ -3415,3 +3415,14 @@ body .colors .active p {
 .pa-heading .ingredients{
     color:#048591;
 }
+.physician{
+    font-size: small;
+}
+.big3{
+    width: 500px;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+}
